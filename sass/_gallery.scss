@@ -4,6 +4,10 @@
     display: grid;
     grid-template-columns: repeat( 8, 1fr );
     grid-template-rows: repeat( 7 , 5vw );
+
+    //short hand rule to wrid template for css grid rows and column together
+    // grid-template: repeat( 7 , 5vw )/repeat( 8, 1fr ); 
+
     gap: 1.5rem;
     padding: 1.5rem;
 
